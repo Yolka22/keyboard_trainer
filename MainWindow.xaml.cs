@@ -423,7 +423,6 @@ namespace classwork2_07_04_23
 
         private void Button_dot_coma_Click(object sender, RoutedEventArgs e)
         {
-            main_textbox.Text = Check_Line_Status(main_textbox.Text, sr);
 
             main_textbox.Text = Check_Remove_Symbol(main_textbox.Text, Button_dot_coma.Content.ToString(), case_sens);
 
